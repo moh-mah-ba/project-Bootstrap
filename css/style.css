@@ -34,11 +34,11 @@
 .carousel-indicators li{
     background: rgba(255,255,255,0)
 }
-
+.carousel-caption{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .carousel .head-curoer{
-    position: flex;
-    top: 235px;
-    left: 150px;
     z-index: 3;
     font-size: 65px;
     color: #fff;
@@ -46,29 +46,31 @@
     text-align: left;
     padding-left: 30px;
 }
+.carousel .head-curoer span{
+    background-color:#ed1d24;
+    padding: 0px 10px;
+}
+
 @media (max-width:575px){
     .carousel .head-curoer{
-        position: absolute;
-        top: 70px;
-        left: 50px; 
-        font-size: 25px;
+        font-size: 16px;
     }
 }
 @media (min-width:576px) and (max-width:991px){
   .carousel .head-curoer{
-        position: absolute;
-        top: 135px;
-        left: 75px; 
         font-size: 35px;
     }  
 }
 .carousel .head-curoer span{
     background-color:#ed1d24;
     padding: 0px 10px;
-}
+}*/
 /* *********** Start Features ************* */
 .features{
     margin:100px 0;
+}
+.features .feat-mg{
+    margin: 100px 0;
 }
 .features .fon-osm{
     padding:20px 23px;
@@ -153,7 +155,6 @@
 .photo-section .photo1 , .photo2 , .photo3 , .photo4 ,
 .photo5 , .photo6 , .photo7 , .photo8{
     position: relative;
-    
 }
 .photo-section .lay-over{
     position: absolute;
@@ -191,7 +192,6 @@
     text-decoration:none;
     font-size:18px;   
 }
-
 /* media query for layout-word in the gallary photoes */
 @media (min-width:576px) and (max-width:767px){
     .features-work .photo-section .row h3 {
@@ -244,7 +244,6 @@
     z-index: 2;
 }
 .testimonial .carousel-indicators .pollit{
-   
     width: 15px;
     border-radius: 50%;
     height: 15px;
@@ -394,7 +393,6 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-
 /* **************   End Why Choose Us ************ */
 /* **************   Start Analisys ************ */
 .analisys-sec{
@@ -422,7 +420,7 @@
 /* **************    Start Contact Us ************ */
 .cotact-us{
     background: #ed1d24;
-    padding: 75px 0;
+    padding: 5em 0;
     color:#fff;
 }
 .cotact-us p{
@@ -449,11 +447,20 @@
 .cotact-us button:hover{
     background: #08526D;
 }
+@media (max-width: 575px){
+    .cotact-us p{
+        text-align: center;
+        font-size: 22px;
+    }
+    .cotact-us button{
+        padding: 10px 50px;
+    }
+}
 /* **************   End Contact Us ************ */
 /* **************   Start Footer ************ */
 .footer{
     background: #f7f7f7;
-    padding:100px 0 ; 
+    padding:100px 20px ; 
     margin:0;
 }
 .footer .foot-img{
@@ -523,10 +530,7 @@
 .footer-bar .social-media ul li i:hover{
     color:#ed1d24;
 }
-
-
 /* **************   End Footer bar ************ */
-
 /* Start go up button */
 .go-up{
     position: fixed;
@@ -541,40 +545,4 @@
     z-index: 5;
     display: none;
 }
-
 /* End go up button */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
