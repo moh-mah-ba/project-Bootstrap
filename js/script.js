@@ -181,7 +181,32 @@ bttnSix.onclick = function (){
 /* Start go up button by jqery */
 $(document).ready(function () {
     
+    // Start Paragraph Center 
     
+    $('.resiz-jq').css({
+        
+        'position': "absolute",
+        
+        'top': ($('.hea-jq').height() - $('.resiz-jq').height()) / 2.2 
+        
+        
+    });
+    
+    $(window).resize(function () {
+        
+        $('.resiz-jq').css({
+        
+        'position': "absolute",
+        
+        'top': ($('.hea-jq').height() - $('.resiz-jq').height()) / 2,
+        
+        
+    });
+        
+    });
+    
+    // End Paragraph Center
+   // Start go up Button
     
     $(window).scroll(function () {
         
@@ -207,72 +232,5 @@ $(document).ready(function () {
             
         }, 1000);
     });
+    // End  go up Button
 });
-
-/* End go up button by jqery */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
