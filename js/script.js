@@ -5,7 +5,6 @@ var bttnOne = document.getElementById('btn-1') ,
     bttnFour = document.getElementById('btn-4') ,
     bttnFive = document.getElementById('btn-5') ,
     bttnSix = document.getElementById('btn-6');
-
 var phoOne = document.querySelector('.photo1'), 
     phoTwo = document.querySelector('.photo2'), 
     phoThree = document.querySelector('.photo3'), 
@@ -14,7 +13,6 @@ var phoOne = document.querySelector('.photo1'),
     phoSix = document.querySelector('.photo6'), 
     phoSeven = document.querySelector('.photo7'), 
     phoEight = document.querySelector('.photo8'); 
-
 var bordOne = document.getElementById('bord1'), 
     bordTwo = document.getElementById('bord2'), 
     bordThree = document.getElementById('bord3'), 
@@ -23,9 +21,6 @@ var bordOne = document.getElementById('bord1'),
     bordSix = document.getElementById('bord6'), 
     bordSeven = document.getElementById('bord7'), 
     bordEight = document.getElementById('bord8');
-    
-
-
 bttnOne.onclick = function (){
     'use strict';
     this.classList.add('active');
@@ -175,61 +170,35 @@ bttnSix.onclick = function (){
     phoSix.classList.remove('lay-hov');
     phoSeven.classList.remove('lay-hov');
     phoEight.classList.add('lay-hov'); 
-   
 }
 /* End buttons Changing  */
 /* Start go up button by jqery */
 $(document).ready(function () {
-    
     // Start Paragraph Center 
-    
     $('.resiz-jq').css({
-        
         'position': "absolute",
-        
         'top': ($('.hea-jq').height() - $('.resiz-jq').height()) / 2.2 
-        
-        
     });
-    
-    $(window).resize(function () {
-        
-        $('.resiz-jq').css({
-        
-        'position': "absolute",
-        
+    $(window).resize(function () {    
+        $('.resiz-jq').css({   
+        'position': "absolute",  
         'top': ($('.hea-jq').height() - $('.resiz-jq').height()) / 2,
-        
-        
     });
-        
     });
-    
     // End Paragraph Center
    // Start go up Button
-    
     $(window).scroll(function () {
-        
-       if ($(window).scrollTop() > 500){
-           
-           
+       if ($(window).scrollTop() > 500){    
            $(scrollGoUp).fadeIn(500);
-        
        } 
-        else{
-            
+        else{    
             $(scrollGoUp).fadeOut(500);
         }
     });
-    
     var scrollGoUp = $('.go-up');
-    
-    $(scrollGoUp).click(function () {
-       
-        $('html, body').animate({
-           
-            scrollTop: 0
-            
+    $(scrollGoUp).click(function () { 
+        $('html, body').animate({  
+            scrollTop: 0     
         }, 1000);
     });
     // End  go up Button
