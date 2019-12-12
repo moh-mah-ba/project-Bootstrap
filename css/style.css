@@ -1,538 +1,318 @@
-/* ******* navbar ******* */
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link{
-    color:#08526D;
-    margin-right: 10px;
-    font-weight: 500;
-    font-size:17px;
-    transition: color .25s ease-in-out ;
-}
-.navbar-light .navbar-nav > .nav-link,
-.navbar-light .navbar-nav .nav-link:hover{
-    color:#ed1d24;
-}
-/* *********** curoser ********* */
-.carousel-inner .overlay{
-    position: absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background: rgb(0,0,0,.5);
-    z-index:1;
-}
-.carousel .arrow-prev, .arrow-next{
-    z-index: 2;
-}
-.carousel .circle-shap{
-    width: 15px;
-    border-radius: 50%;
-    height: 15px;
-    border: 1px solid white;
-}
-.carousel-indicators li{
-    background: rgba(255,255,255,0)
-}
-.carousel-caption{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.carousel .head-curoer{
-    z-index: 3;
-    font-size: 65px;
-    color: #fff;
-    text-transform: capitalize;
-    text-align: left;
-    padding-left: 30px;
-}
-.carousel .head-curoer span{
-    background-color:#ed1d24;
-    padding: 0px 10px;
-}
-@media (max-width:575px){
-    .carousel .head-curoer{
-        font-size: 16px;
-    }
-}
-@media (min-width:576px) and (max-width:991px){
-  .carousel .head-curoer{
-        font-size: 35px;
-    }  
-}
-.carousel .head-curoer span{
-    background-color:#ed1d24;
-    padding: 0px 10px;
-}*/
-/* *********** Start Features ************* */
-.features{
-    margin:100px 0;
-}
-.features .feat-mg{
-    margin: 100px 0;
-}
-.features .fon-osm{
-    padding:20px 23px;
-}
-.features i{
-    background:#ed1d24;
-    color:#fff;
-    padding:20px; 
-}
-.features h4{
-    color:#08526D;
-    margin:12px 0 ;
-}
-.features p{
-    margin-bottom: 50px;
-}
-/* ***********  End Features ************* */
-/* ****************   Start Company Overview ************** */
-.comp-view {
-    padding: 90px 0;
-    background: #F0F5F7;
-}
-.comp-view h2{
-    margin-bottom: 40px;
-}
-.comp-view  span{
-    font-size:18px; 
-    line-height: 40px;
-    padding: 20px 0;
-}
-.comp-view button{
-    text-decoration: none;
-    color:#fff;
-    background-color: #ed1d24;
-    font-weight: 600;
-    font-size: 18px;
-    width: 180px;
-    height: 45px;
-    transition:background-color .5s ease-in-out;
-}
-.comp-view button:hover{
-    background-color:#08526D;
-}
-/* ****************   End Company Overview ************** */
-/* **************   StartStart Featured Work ************ */
-.features-work{
-    padding:80px 0;
-}
-.features-work h2{
-    margin: 40px 0;
-}
-.features-work p{
-    margin: 40px 0;
-}
-.hov-coul{
-    border: 1px solid black;
-    margin: 2px 2px;
-}
-.opt-hov:hover{
-    border-color:#ed1d24; 
-    background-color:#fff;
-    color: #ed1d24;
-}
-.features-work .active{
-    border-color:#ed1d24; 
-    background-color:#ed1d24;
-    color: #fff; 
-}
-.features-work .row .col-sm{
-    padding:0;
-    margin: 0;
-}
-.features-work .photo-section .row{
-    padding:0;
-    margin: 0;
-}
-.features-work .photo-section{
-    margin: 80px 0;
-}
-.photo-section .photo1 , .photo2 , .photo3 , .photo4 ,
-.photo5 , .photo6 , .photo7 , .photo8{
-    position: relative;
-}
-.photo-section .lay-over{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,.8);
-    width:100%;
-    height:100%;
-    opacity:0;
-    transition: all .4s ease-in-out;
-}
-.photo-section .lay-hov:hover .lay-over{
-    opacity:1;
-}
-.photo-section .bord1 , .bord2 , .bord3 , .bord4 ,
-.bord5 , .bord6 , .bord7 , .bord8{
-    width:75%;
-    height:75%;
-    border: 1px solid #fff;
-    margin: auto;
-    margin-top:10%;
-}
-.features-work .photo-section .row h3 {
-    color:#ed1d24;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 33%;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.features-work .photo-section .row a{
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration:none;
-    font-size:18px;   
-}
-/* media query for layout-word in the gallary photoes */
-@media (min-width:576px) and (max-width:767px){
-    .features-work .photo-section .row h3 {
-        color:#ed1d24;
-        font-size: 12px;
-        font-weight: 900;
-        margin-top: 33%;
-        margin-bottom: 3px;
-        letter-spacing:0;
-        text-transform: uppercase;
-}
-.features-work .photo-section .row a{
-        font-size:14px;   
-    }
-}
-@media (min-width:768px) and (max-width:960px){
-    .features-work .photo-section .row h3 {
-        font-size: 15px;
-        font-weight: 700;
-       letter-spacing:0;
-    }
-}
-/* **************   End  Featured Work ************ */
-.Latest-Post{
-    margin-bottom: 100px;
-}
-.Latest-Post .card-deck .card-body h5{
-    color:#08526D;
-}
-/* **************   Start Company CEO  ************ */
-.testimonial{
-    background: url(../image/testimonial-bg.jpg)no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-    position: relative;
-}
-.testimonial .lay-out{
-    position: absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background: rgb(0,0,0,.5);
-    z-index:1;
-}
-.testimonial .carousel-indicators{
-    z-index: 2;
-}
-.testimonial .carousel-indicators .pollit{
-    width: 15px;
-    border-radius: 50%;
-    height: 15px;
-    border: 1px solid white;
-}
-.testimonial .arrow-go{
-    z-index: 2;
-}
-.testimonial .carousel-inner{
-    z-index: 2;
-    top:20%; 
-}
-.testimonial .carousel-inner img{
-    padding-bottom: 15px;
-}
-.testimonial .carousel-inner span{
-   color:#c7c7c7;
-}
-.testimonial .carousel-inner p{
-    padding-top: 50px;
-}
-/* **************   End  Company CEO ************ */
-/* **************   start Pricing Table ************ */
-.price-table{
-    padding: 70px 0 100px 0;
-    background: #f7f7f7;
-}
-.price-table h2{
-    font-size: 45px;
-    font-weight: 600;
-    padding-bottom: 25px;
-}
-.price-table p{
-    font-size: 18px;
-    letter-spacing: 2px;
-    color: #555;
-}
-.price-table .card-body{
-    padding: 0;
-    margin: 0;
-}
-.price-table .card{
-    padding-bottom: 20px
-}
-.price-table .card-body h5{
-    font-size: 25px;
-    font-weight: 600;
-    color: #08526D;
-}
-.price-table .card-body  p{
-    width:100%;
-    font-size: 40px;
-    font-weight: 500;
-    color: #08526D;
-    background: #f7f7f7   
-}
-.price-table .card-body span{
-    font-size: 16px;
-    font-weight: 400;
-}
-.price-table .card-body .price-mid{
-   background: #ed1d24;
-    color:#fff;
-}
-.price-table .card-body ul li{
-    padding: 5px 0;
-}
-.price-table .card-body .buy-now1 , .buy-now2 , .buy-now3{
-    background: #ed1d24;
-    border:none; 
-     color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    line-height: 46px;
-    padding: 0 40px;
-}
-.price-table .card-body button{
-    transition: background .5s ease-in-out;
-    -webkit-transition: background .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out;
-    -o-transition: background .5s ease-in-out; 
-}
-.price-table .card-body button:hover{
-    background: #08526D;
-}
-.price-table .hov-up{ 
-    transition: all .4s ease-in-out ;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out; 
-}
-.price-table .hov-up:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    -o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
-    margin-top:-10px;
-}
-/* **************   End Pricing Table ************ */
-/* **************   Start Why Choose Us ************ */
-.choose-us img{
-    width:100%;
-    height: 100%;
-}
-.choose-us .conect-img{
-    padding: 0;
-    margin: 0;
-}
-.choose-us .conect-img img {
-    width:100%
-}
-.choose-us .conect-prag{
-    background: #08526D;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-}
-.choose-us .conect-prag h2{
-    font-size: 40px;
-    margin: 100px 0 40px 20px;
-    font-weight: 600;
-}
-.choose-us .conect-prag p{
-    font-size: 16px;
-    line-height: 24px;
-    color: #b5c3c9;
-    padding: 0 30px 5px 20px;
-    letter-spacing: 2px;
-}
-.choose-us .conect-prag button{
-    background: #ed1d24;
-    border:none;
-    cursor: pointer;
-    margin-left:20px;
-    padding: 15px 40px;
-    margin-bottom: 50px;
-    color: #fff ;
-    font-size: 17px;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-/* **************   End Why Choose Us ************ */
-/* **************   Start Analisys ************ */
-.analisys-sec{
-   padding:100px 0; 
-}
-.analisys-sec .row {
-    padding: 0;
-    margin: 0;
-}
-.analisys-sec i{
-    color:#08526D;
-    display: block;
-}
-.analisys-sec .numb{
-    font-size:30px;
-    font-weight: 700;
-    color:#08526D;
-    display: block;
-}
-.analisys-sec p{
-    color: #ed1d24;
-    font-size: 20px;
-}
-/* **************   End Analisys ************ */
-/* **************    Start Contact Us ************ */
-.cotact-us{
-    background: #ed1d24;
-    padding: 5em 0;
-    color:#fff;
-}
-.cotact-us p{
-    display: inline-block;
-    font-size:33px;
-    margin-right: 65px;
-    font-weight: 300;
-}
-.cotact-us button{
-    border: 2px solid #fff;
-    padding: 10px 40px;
-    background: #ed1d24;
-    cursor:pointer;
-    transition: background-color .5s ease-in-out;
-    -webkit-transition: background-color .5s ease-in-out;
-    -moz-transition: background-color .5s ease-in-out;
-    -o-transition: background-color .5s ease-in-out;
-    color:#fff;
-    text-decoration: none;
-    font-size:20px;
-}
-.cotact-us button:hover{
-    background: #08526D;
-}
-@media (max-width: 575px){
-    .cotact-us p{
-        text-align: center;
-        font-size: 22px;
-    }
-    .cotact-us button{
-        padding: 10px 50px;
-    }
-}
-/* **************   End Contact Us ************ */
-/* **************   Start Footer ************ */
-.footer{
-    background: #f7f7f7;
-    padding:100px 20px ; 
-    margin:0;
-}
-.footer .foot-img{
-    padding: 20px 0;
-}
-.footer .foot-img p{
-    line-height: 28px;
-}
-.footer .foot-img a{
-    color:#08526D;
-    text-decoration: none;
-}
-.footer .foot-img a i{
-    padding-right: 10px;
-}
-.footer .foot-img a:hover{
-    color:#ed1d24;
-}
-.footer .help-links {
-    color:#08526D;
-}
-.footer .help-links h5{
-    padding-bottom: 30px;
-    font-weight: 400;
-    font-size: 22px;
-}
-.footer .help-links .listes{
-    line-height: 40px;
-}
-.footer .help-links .listes i{
-    padding-right: 10px;
-    color:#ccc;
-    font-weight: 100;
-}
-.footer .help-links .listes a{
-    color:#08526D;
-    text-decoration: none;
-}
-.footer .help-links .listes a:hover{
-    color:#ed1d24;
-    padding-left: 5px;
-}
-.footer .third-cont h5{
-   padding-bottom: 40px;
-}
-.footer .third-cont{
-    line-height: 35px;
-    padding: 20px 0 ;
-}
-.footer .third-cont h5{
-     padding-bottom: 30px;
-    font-weight: 400;
-    font-size: 22px;
-    color:#08526D;
-}
-/* **************   End Footer ************ */
-/* **************   Start Footer bar************ */
-.footer-bar .social-media ul li{
-    display: inline-block;
-    cursor:pointer;
-    padding: 0 5px;
-}
-.footer-bar .social-media ul li i{
-    color:#6c757d;
-    font-size:20px;
-}
-.footer-bar .social-media ul li i:hover{
-    color:#ed1d24;
-}
-/* **************   End Footer bar ************ */
-/* Start go up button */
-.go-up{
-    position: fixed;
-    bottom:25px;
-    right:25px;
-    color:#fff;
-    font-size: 25px;
-    background: #ed1d24;
-    padding: 10px 17px;
-    border: none;
-    border-radius: 5px;
-    z-index: 5;
-    display: none;
-}
-/* End go up button */
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <title>BUSINESSPERFECT</title>
+        <meta charset="UTF-8">
+        <meta name="viowport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/Normalize.css">
+        <link rel="shortcut icon" type="image/png" href="img/apple-touch-icon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo&display=swap">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Start Header -->
+        <header>
+            <div class="over-lay">
+                <!-- Start Nav Bar -->
+                <nav>
+                    <div class="logo">
+                        <h3>Business<span>Perfect</span></h3>
+                    </div>
+                    <div class="bars">
+                        <i class="fa fa-bars fa-lg"></i>
+                    </div>
+                    <div class="nav-icon">
+                        <ul>
+                            <li class="active">Home</li>
+                            <li>About US</li>
+                            <li>Bolg</li>
+                            <li>portfolio</li>
+                            <li>About US</li>
+                            <li>Contact</li>
+                            <li>UI Elements</li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- End Nav Bar -->
+            <!-- Start Header Content -->
+            <div class="header-content">
+                <p>Simplicity is the soul of<br> efficiency</p>
+            </div>   
+            <div class="go-next">
+                <i class="fa fa-chevron-down fa-2x"></i>
+            </div>
+            <!-- End Header Content -->
+           </div> 
+        </header> 
+        <!-- End Header -->
+        <!-- Start Own success -->
+        <section id="own-success" class="own-success">
+            <p>I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite</p>
+            <h4>G. K. Chesterton</h4>
+        </section>
+        <!-- End Own success -->
+        <!-- Start Featured Works -->
+       <section class="feature-work">
+            <div class="feature-head">
+                <h2>Featured Works</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="slide-button">
+                <i class="fa fa-chevron-left ch-rig" aria-hidden="true"></i>
+                <i class="fa fa-chevron-right ch-lef" aria-hidden="true"></i>
+           </div>
+            <div class="feature-slider">
+                <div class="slid-im-1 wid-slid"></div>
+                <div class="slid-im-2 wid-slid"></div>
+                <div class="slid-im-3 wid-slid"></div>
+                <div class="slid-im-4 wid-slid"></div>
+                <div class="slid-im-5 wid-slid"></div>
+                <div class="slid-im-6 wid-slid"></div>
+            </div>
+        </section>
+        <!-- End Featured Works -->
+        <!-- Start We The Best -->
+        <section class="the-best">
+            <h2>We Are The Best</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="feature-best">
+                <div class="design-best">
+                    <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+                    <div class="des-in">
+                        <h3>Clean Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>    
+                <div class="responsive-best">
+                    <i class="fa fa-arrows-alt fa-2x" aria-hidden="true"></i>
+                    <div class="respo-in">
+                        <h3>Responsive Layout</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>    
+                <div class="customiz-best">
+                    <i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+                    <div class="custm-in">
+                        <h3>Customizable</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>    
+                <div class="multi-best">
+                    <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+                    <div class="mult-in">
+                        <h3>Multi-Purpose</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <!-- End We The Best -->
+        <!-- Start Counter -->
+        <section class="counter">
+            <div class="cup-count">
+                <h3>Cup of Coffe</h3>
+                <span>1520</span>
+            </div>
+            <div class="cup-count">
+                <h3>Happy Clients</h3>
+                <span>426</span>
+            </div>
+            <div class="happy-count">
+                <h3>Projects Done</h3>
+                <span>512</span>
+            </div>
+            <div class="cup-count">
+                <h3>Ideas</h3>
+                <span>423</span>
+            </div>   
+        </section>
+        <!-- End Counter -->
+        <!-- Start Super Team -->
+        <section class="super-team">
+            <h2>Super Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="full-img">
+                <div class="imployee">
+                    <img src="img/employee-1.jpg" alt="employee1">
+                    <div>
+                        <h4>Mark Henderson</h4>
+                        <h5>CEO</h5>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="imployee">
+                    <img src="img/employee-2.jpg" alt="employee2">
+                    <div>
+                        <h4>Linda Smith</h4>
+                        <h5>Human Resources</h5>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="imployee">
+                    <img src="img/employee-3.jpg" alt="employee3">
+                    <div>
+                        <h4>Matt Ryan</h4>
+                        <h5>Coordinator</h5>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="imployee">
+                    <img src="img/employee-4.jpg" alt="employee4">
+                    <div>
+                        <h4>Cindy Bell</h4>
+                        <h5>PR Marketing</h5>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="imployee">
+                    <img src="img/employee-5.jpg" alt="employee5">
+                    <div>
+                        <h4>Frank Dawson</h4>
+                        <h5>COO</h5>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div> 
+            </div>
+            <div class="team-button">
+                <i class="fa fa-chevron-left ch-rig-team" aria-hidden="true"></i>
+                <i class="fa fa-chevron-right ch-lef-team" aria-hidden="true"></i>
+           </div>
+            <div class="img-team">
+                <div><img src="img/employee-1.jpg" alt="employee1"></div>
+                <div><img src="img/employee-2.jpg" alt="employee2"></div>
+                <div><img src="img/employee-3.jpg" alt="employee3"></div>
+                <div><img src="img/employee-4.jpg" alt="employee4"></div>
+                <div><img src="img/employee-5.jpg" alt="employee5"></div>
+            </div>
+        </section>
+        <!-- End Super Team -->
+        <!-- Start Our client -->
+        <section class="out-client">
+            <h2>What our clients say?</h2>
+            <div class="opinine">
+                <div class="client">
+                    <img src="img/testimonial-1.jpg" alt="client">
+                    <div>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</q>
+                        <p>Jane Smith</p><span>Owner of Company</span>
+                    </div>    
+                </div>
+                <div class="client">
+                    <img src="img/testimonial-2.jpg" alt="client">
+                    <div>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</q>
+                        <p>Matt Ryan</p><span>Owner of Company</span>
+                    </div>    
+                </div>
+                <div class="client">
+                    <img src="img/testimonial-1.jpg" alt="client">
+                    <div>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</q>
+                        <p>Jane Smith</p><span>Owner of Company</span>
+                    </div>    
+                </div>
+                <div class="client">
+                    <img src="img/testimonial-2.jpg" alt="client">
+                    <div>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</q>
+                        <p>Matt Ryan</p><span>Owner of Company</span>
+                    </div>    
+                </div>
+                <div class="client">
+                    <img src="img/testimonial-1.jpg" alt="client">
+                    <div>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</q>
+                        <p>Jane Smith</p><span>Owner of Company</span>
+                    </div>    
+                </div>
+                <div class="client">
+                    <img src="img/testimonial-2.jpg" alt="client">
+                    <div>
+                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</q>
+                        <p>Matt Ryan</p><span>Owner of Company</span>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <!-- End Our client -->
+        <!-- Start Now Yellow -->
+        <div class="start-now">
+            <p>Coming together is a beginning, keeping together is progress, working together is success.</p>
+            <button>Start Now</button>
+        </div>
+        <!-- End Now Yellow -->
+        <!-- Start Social Media Contacts -->
+        <div class="Social-media">
+            <div class="twitt"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></div>
+            <div class="face"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></div>
+            <div class="googl"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></div>
+            <div class="mail"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></div>
+        </div>
+        <!-- End Social Media Contacts -->
+        <!-- Start Footer -->
+        <footer>
+            <a href="mailto:hello@businessperfect.com">hello@businessperfect.com</a>
+            <div class="four-patrs">
+                <div class="info">
+                    <h3><span>BUSINESS</span>PERFECT</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <div class="teleph">
+                    <h4>Get in touch</h4>
+                    <p>Phone:<a href="tel:+15417543010">+1-541-754-3010</a></p>
+                    <p>Email: <a href="mailto:hello@businessperfect.com">hello@businessperfect.com</a></p>
+                    <p>Fax: <a href="tel:+15417543010">+1-541-754-3010</a></p>
+                </div>
+                <div class="links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a>About Us</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="location">
+                    <h4>Location</h4>
+                    <ul>
+                        <li>BusinessPerfect</li>
+                        <li>848 My Street,</li>
+                        <li>CA 94544</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copy-right"> &copy; 2019 BusinessPerfect | Made by .....</div>
+        <!-- End Footer -->
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
